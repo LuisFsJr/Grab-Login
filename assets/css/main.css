@@ -299,6 +299,12 @@ html,body{
 }
 
 /* ----- // ALERT // ----- */
+.body-wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
 
 main{
     width: 100vw;
@@ -395,12 +401,4 @@ input[type='password']:focus{
         width: 100%;
     }
 
-}
-
-
-.body-wrapper{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
 }
