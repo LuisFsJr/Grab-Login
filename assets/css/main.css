@@ -307,6 +307,7 @@ main{
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .bg-formulario{
