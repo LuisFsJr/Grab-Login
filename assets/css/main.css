@@ -314,7 +314,7 @@ main{
     background-position: right;
     background-repeat: no-repeat;
     overflow: hidden;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .bg-formulario{
