@@ -86,3 +86,7 @@ setTimeout(function(){
 setTimeout(function(){
     $('.load').css('display', 'none')
 }, 3000);
+
+setTimeout(function(){
+    $('#main').css('opacity', '1')
+}, 500)
