@@ -41,7 +41,7 @@ function validar(){
             }, 5000)
         }else{
             password.style.borderColor = '#FF5757'
-            password.style.backgroundImage = 'url(/assets/images/invalid-password.svg)'
+            password.style.backgroundImage = 'url(../assets/images/invalid-password.svg)'
             $('.password').removeClass("hide")
             $('.password').addClass("show")
             $('.password').addClass("showAlert")
@@ -52,7 +52,7 @@ function validar(){
         }
     }else{
         email.style.borderColor = '#FF5757'
-        email.style.backgroundImage = 'url(/assets/images/invalid-email.svg)'
+        email.style.backgroundImage = 'url(../assets/images/invalid-email.svg)'
         $('.email').removeClass("hide")
         $('.email').addClass("show")
         $('.email').addClass("showAlert")
@@ -65,12 +65,12 @@ function validar(){
 
 function returnToNormal1(){
     email.style.borderColor = '#FFF'
-    email.style.backgroundImage = 'url(/assets/images/email.svg)'
+    email.style.backgroundImage = 'url(../assets/images/email.svg)'
 }
 
 function returnToNormal2(){
     password.style.borderColor = '#FFF'
-    password.style.backgroundImage = 'url(/assets/images/password.svg)'
+    password.style.backgroundImage = 'url(../assets/images/password.svg)'
 }
 
 let load = document.getElementById('load')
