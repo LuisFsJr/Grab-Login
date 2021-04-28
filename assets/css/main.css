@@ -308,6 +308,7 @@ main{
     background-position: right;
     background-repeat: no-repeat;
     overflow: hidden;
+    opacity: 0;
 }
 
 .bg-formulario{
