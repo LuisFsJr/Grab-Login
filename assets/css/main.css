@@ -309,6 +309,7 @@ main{
     background-repeat: no-repeat;
     overflow: hidden;
     opacity: 0;
+    transition: .5s;
 }
 
 .bg-formulario{
