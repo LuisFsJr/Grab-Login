@@ -10,4 +10,6 @@
   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=RED&style=for-the-badge"/>
 </p>
 
-<img src="assets/images/design.png" />
+<p align="center">
+  <img width="720px" src="assets/images/design.png" />
+</p>
