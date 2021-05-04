@@ -8,8 +8,6 @@
 
 html,body{
     height: 100%;
-    max-width: 100vw;
-    max-height: 100vh;
     overflow: hidden;
 }
 
@@ -301,6 +299,12 @@ html,body{
 }
 
 /* ----- // ALERT // ----- */
+.body-wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
 
 main{
     width: 100vw;
@@ -310,8 +314,7 @@ main{
     background-position: right;
     background-repeat: no-repeat;
     overflow: hidden;
-    opacity: 0;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .bg-formulario{
@@ -393,25 +396,10 @@ input[type='password']:focus{
     margin-left: -2.5%;
 }
 
-.body-wrapper{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
-
 
 @media screen and (max-width: 800px){
-    body{
-        max-width: 100vw;
-        max-height: 100vh
-    }
-    main{
-        overflow: hidden;
-    }
     .bg-formulario{
         width: 100%;
-        overflow: hidden;
     }
 
 }
