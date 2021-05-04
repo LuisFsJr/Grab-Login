@@ -13,3 +13,11 @@
 <p align="center">
   <img width="720px" src="assets/images/design.png" />
 </p>
+
+<h1 align="center">Descrição do Projeto</h1>
+
+```
+Desafio: Seu desafio é criar uma página de login e verificar se o formulário foi preenchido corretamente.
+```
+
+<p>completei o desafio proposto pela DevChallenge BR e implementei uma 'loadscreen', e um sistema mais completo de verificação de email e senha. </p>
