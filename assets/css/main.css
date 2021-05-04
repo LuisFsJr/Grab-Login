@@ -325,8 +325,8 @@ main{
 }
 
 .form-box{
-    margin: 0 auto;
     position: relative;
+    margin: 0 auto;
     width: 300px;
     height: 50%;
     top: 50%;
