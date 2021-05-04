@@ -377,7 +377,6 @@ input[type='button']{
 }
 
 .help{
-    position: absolute;
     text-align: center;
     font-size: 14px;
     line-height: 16px;
@@ -385,6 +384,7 @@ input[type='button']{
     bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
+    position: absolute;
 }
 
 input[type='email']:focus,
