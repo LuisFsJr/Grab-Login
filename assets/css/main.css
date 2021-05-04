@@ -380,14 +380,13 @@ input[type='button']{
 }
 
 .help{
+    bottom: -180px;
     text-align: center;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
     bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
+    margin-top: 120px;
 }
 
 input[type='email']:focus,
